@@ -72,7 +72,7 @@ public class Main {
 
     if (commandLineParams.help) {
       jCommander.usage();
-      System.exit(1);
+      System.exit(0);
     }
 
     // default to src/main/webapp
